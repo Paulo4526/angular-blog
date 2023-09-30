@@ -1,0 +1,24 @@
+.big-card{
+  max-width: 100%;
+  padding: 10px;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.notice-title, .notice-description{
+  margin: 20px 0;
+  text-align: left;
+}
+
+.notice-description p{
+  color: gray;
+}
+
+@media (max-width:550px) {
+  .picture, .notice-title, .notice-description{
+    text-align: center;
+  }
+}

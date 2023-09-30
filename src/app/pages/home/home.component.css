@@ -1,0 +1,27 @@
+.article{
+  display: flex;
+  padding: 40px;
+}
+
+.main-notice, .others-notices{
+  margin: 0px 10px;
+  width: 50%;
+}
+
+.others-notices{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:900px) {
+  .article{
+    flex-direction: column;
+  }
+  .main-notice, .others-notices{
+    margin: 10px auto;
+    width: 80%;
+  }
+  .main-notice{
+    margin-bottom: 20px;
+  }
+}
